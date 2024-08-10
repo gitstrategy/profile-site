@@ -3,69 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <title>Resume</title>
     <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
-    <header>
-        <h1>Your Name</h1>
-        <p>Senior Software Engineer | Java | Kubernetes | DevOps</p>
-    </header>
+    <div id="header"></div>
+    <div id="content"></div>
+    <div id="footer"></div>
 
-    <section class="contact">
-        <h2>Contact Information</h2>
-        <ul>
-            <li>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></li>
-            <li>Phone: +1-234-567-890</li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile/">linkedin.com/in/yourprofile</a></li>
-            <li>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></li>
-        </ul>
-    </section>
-
-    <section class="summary">
-        <h2>Professional Summary</h2>
-        <p>
-            Experienced Kubernetes Developer with over 10 years in software development, specializing in containerization, microservices, and cloud-native solutions. Adept at optimizing system performance, leading cross-functional teams, and implementing scalable, secure applications in cloud environments.
-        </p>
-    </section>
-
-    <section class="experience">
-        <h2>Work Experience</h2>
-
-        <div class="job">
-            <h3>Sr. Full Stack Developer / Technical Solution Lead</h3>
-            <p><strong>FPT USA Corporation, Atlanta, Georgia, USA</strong> | 11/2021 - Present</p>
-            <ul>
-                <li>Lead Kubernetes cluster management for development, testing, and production environments.</li>
-                <li>Designed and implemented CI/CD pipelines for Kubernetes-based applications.</li>
-                <li>Collaborated with cross-functional teams to containerize existing applications using Docker and Kubernetes.</li>
-                <li>Optimized resource utilization and application performance within Kubernetes clusters.</li>
-            </ul>
-        </div>
-
-        <!-- Add more job experiences as needed -->
-    </section>
-
-    <section class="education">
-        <h2>Education</h2>
-        <p><strong>Bachelor of Software Engineering</strong>, FPT University, Hanoi, Vietnam (04/2014)</p>
-    </section>
-
-    <section class="skills">
-        <h2>Technical Skills</h2>
-        <ul>
-            <li>Programming Languages: Java, Python, JavaScript</li>
-            <li>Containerization: Docker, Kubernetes</li>
-            <li>Cloud Platforms: AWS, GCP</li>
-            <li>CI/CD Tools: Jenkins, GitLab CI</li>
-            <li>Microservices: Design and Implementation</li>
-        </ul>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
-    </footer>
-
-    <script src="script.js"></script>
+    <script src="template_08oct2024/script.js"></script>
+    <script>
+        loadTemplate("template_08oct2024/header.html", "#header");
+        loadTemplate("template_08oct2024/content.html", "#content");
+        loadTemplate("template_08oct2024/footer.html", "#footer");
+        loadProfileData("template_08oct2024/profile.txt");
+    </script>
 </body>
 </html>

@@ -1,0 +1,15 @@
+profile.name=Q.Giang Nguyen
+profile.position=Senior Software Engineer
+profile.contact=giangnq.it@gmail.com
+profile.summary=Java Expert | Solution Architect 
+profile.year=2024
+experience.list=Ex - Senior Solution Lead at FPT USA Corp
+job1_title=Senior Solution Lead
+job1_company=ABC Corp
+job1_duration=Jan 2018 - Present
+job1_description=Developing and maintaining enterprise-level applications...
+
+job2_title=Software Engineer
+job2_company=XYZ Inc
+job2_duration=Jun 2015 - Dec 2017
+job2_description=Worked on microservices architecture and cloud deployments...
