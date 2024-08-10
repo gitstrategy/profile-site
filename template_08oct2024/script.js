@@ -53,3 +53,47 @@ function loadProfileData(url) {
         .catch(error => console.error('Error loading profile data:', error));
 }
 
+// script.js
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Fetch experience data from JSON file
+    fetch('template_08oct2024/data.json')
+        .then(response => response.json())
+        .then(data => {
+            const experienceContainer = document.getElementById('experience');
+
+            data.forEach(exp => {
+                // Create a new div for each experience entry
+                const expDiv = document.createElement('div');
+                expDiv.classList.add('experience-entry');
+
+                // Create and append title
+                const title = document.createElement('h3');
+                title.textContent = exp.title;
+                expDiv.appendChild(title);
+
+                // Create and append company
+                const company = document.createElement('p');
+                company.textContent = `${exp.company} - ${exp.location}`;
+                expDiv.appendChild(company);
+
+                // Create and append date
+                const date = document.createElement('p');
+                date.textContent = exp.date;
+                expDiv.appendChild(date);
+
+                // Create and append description
+                const descList = document.createElement('ul');
+                exp.description.forEach(desc => {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = desc;
+                    descList.appendChild(listItem);
+                });
+                expDiv.appendChild(descList);
+
+                // Append experience entry to container
+                experienceContainer.appendChild(expDiv);
+            });
+        })
+        .catch(error => console.error('Error loading experience data:', error));
+});

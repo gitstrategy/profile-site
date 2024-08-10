@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Senior Full Stack Developer",
+        "company": "FPT USA Corporation",
+        "location": "Atlanta, Georgia, USA",
+        "date": "11/2021 - Present",
+        "description": [
+            "Conduct comprehensive analysis and assessment for multiple projects in Automotive domain.",
+            "Lead several projects, ensuring on-time and within-budget delivery while maintaining high levels of quality and customer satisfaction.",
+            "Manage and optimize AWS resources, including EC2 instances, S3 storage, RDS databases, and Lambda functions.",
+            "Collaborate with cross-functional teams to design and deploy tailored AWS solutions using services like AWS CloudFormation and AWS Elastic Beanstalk."
+        ]
+    },
+    {
+        "title": "Sr. Full Stack Developer",
+        "company": "FPT Software",
+        "location": "Hanoi, Vietnam",
+        "date": "07/2019 – 10/2021",
+        "description": [
+            "Lead analysis, estimation, programming, and unit testing for multiple projects within the Healthcare domain.",
+            "Implement GDPR standards across various projects, ensuring compliance with data protection regulations.",
+            "Utilize Google Cloud Platform for executing Circle-CI, logging, and deployment processes.",
+            "Drive the enhancement of system features, optimizing performance and elevating user experience."
+        ]
+    }
+]
