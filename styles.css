@@ -93,3 +93,85 @@ h1, h2, h3 {
     list-style-type: disc;
     margin: 10px 0 0 20px;
 }
+/* styles.css */
+
+.skills {
+    padding: 20px;
+}
+
+#skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#skills-table th, #skills-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+#skills-table th {
+    background-color: #f2f2f2;
+}
+
+#skills-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#skills-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+.education, .certificates {
+    padding: 20px;
+}
+
+.education-entry, .certificate-entry {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.education-entry h3, .certificate-entry h3 {
+    margin-top: 0;
+}
+
+/* Style for collapse row in certificate section*/
+
+/* Collapsible Table Styles */
+.collapse-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.collapse-table th, .collapse-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.collapse-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.collapse-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.collapse-header {
+    cursor: pointer;
+    background-color: #f2f2f2;
+}
+
+.collapse-content {
+    display: none;
+}
+
+.collapse-content.visible {
+    display: table-row-group;
+}
+

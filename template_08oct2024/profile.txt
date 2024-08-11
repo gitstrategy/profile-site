@@ -1,15 +1,8 @@
 profile.name=Q.Giang Nguyen
-profile.position=Senior Software Engineer
+profile.position=Senior Full Stack Developer | Technical Solution Lead
 profile.contact=giangnq.it@gmail.com
-profile.summary=Java Expert | Solution Architect 
+profile.phone=+1234567890
+linkedin:https://linkedin.com/in/johndoe
+github:https://github.com/johndoe
+profile.summary=Seasoned and results-oriented Solution Technical Lead with an impressive track record spanning over 10 years, demonstrating expertise in the meticulous design and implementation of sophisticated technical solutions. Proven commitment to achieving customer satisfaction by delivering innovative and high-quality solutions. Proficient in steering projects from conception to completion, employing a comprehensive skill set in Full Stack Development and Solution Architecture. Adept at leveraging extensive knowledge in AWS and cloud technologies to optimize infrastructure and enhance system performance. Strong leadership skills, complemented by excellent communication and project management abilities. Recognized for a keen focus on technical excellence, innovative solutions, and collaborative approaches to designing cutting-edge solutions. Demonstrated proficiency in steering projects through meticulous technical design, solution architecture, and efficient implementation, ensuring seamless integration, with a flair for solving intricate challenges.
 profile.year=2024
-experience.list=Ex - Senior Solution Lead at FPT USA Corp
-job1_title=Senior Solution Lead
-job1_company=ABC Corp
-job1_duration=Jan 2018 - Present
-job1_description=Developing and maintaining enterprise-level applications...
-
-job2_title=Software Engineer
-job2_company=XYZ Inc
-job2_duration=Jun 2015 - Dec 2017
-job2_description=Worked on microservices architecture and cloud deployments...

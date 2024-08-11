@@ -56,44 +56,79 @@ function loadProfileData(url) {
 // script.js
 
 document.addEventListener("DOMContentLoaded", function() {
-    // Fetch experience data from JSON file
+    // Fetch experience, skills, education, and certificates data from JSON file
     fetch('template_08oct2024/data.json')
         .then(response => response.json())
         .then(data => {
             const experienceContainer = document.getElementById('experience');
+            const skillsTableBody = document.getElementById('skills-table').getElementsByTagName('tbody')[0];
+            const educationContainer = document.getElementById('education');
+            const certificatesContainer = document.getElementById('certificates-container');
 
-            data.forEach(exp => {
-                // Create a new div for each experience entry
+            // Load Experience
+            data.experience.forEach(exp => {
                 const expDiv = document.createElement('div');
                 expDiv.classList.add('experience-entry');
-
-                // Create and append title
-                const title = document.createElement('h3');
-                title.textContent = exp.title;
-                expDiv.appendChild(title);
-
-                // Create and append company
-                const company = document.createElement('p');
-                company.textContent = `${exp.company} - ${exp.location}`;
-                expDiv.appendChild(company);
-
-                // Create and append date
-                const date = document.createElement('p');
-                date.textContent = exp.date;
-                expDiv.appendChild(date);
-
-                // Create and append description
-                const descList = document.createElement('ul');
-                exp.description.forEach(desc => {
-                    const listItem = document.createElement('li');
-                    listItem.textContent = desc;
-                    descList.appendChild(listItem);
-                });
-                expDiv.appendChild(descList);
-
-                // Append experience entry to container
+                expDiv.innerHTML = `
+                    <h3>${exp.title}</h3>
+                    <p>${exp.company} - ${exp.location}</p>
+                    <p>${exp.date}</p>
+                    <ul>${exp.description.map(desc => `<li>${desc}</li>`).join('')}</ul>
+                `;
                 experienceContainer.appendChild(expDiv);
             });
+
+            // Load Skills
+            Object.keys(data.skills).forEach(category => {
+                const skillsRow = document.createElement('tr');
+                skillsRow.innerHTML = `
+                    <td>${category}</td>
+                    <td>${data.skills[category].join(', ')}</td>
+                `;
+                skillsTableBody.appendChild(skillsRow);
+            });
+
+            // Load Education
+            data.education.forEach(ed => {
+                const edDiv = document.createElement('div');
+                edDiv.classList.add('education-entry');
+                edDiv.innerHTML = `
+                    <h3>${ed.school}</h3>
+                    <p>${ed.degree} - ${ed.year}</p>
+                    <p>${ed.grade}</p>
+                `;
+                educationContainer.appendChild(edDiv);
+            });
+            
+            //Load Certificate
+            data.certificates.forEach(cert => {
+                const certTable = document.createElement('table');
+                certTable.classList.add('collapse-table');
+                
+                certTable.innerHTML = `
+                    <thead>
+                        <tr class="collapse-header" data-target="${cert.name.replace(/\s+/g, '_')}">
+                            <th colspan="2">${cert.name}</th>
+                        </tr>
+                    </thead>
+                    <tbody class="collapse-content ${cert.name.replace(/\s+/g, '_')}">
+                        <tr><td>Issued by</td><td>${cert.issueOrganization}</td></tr>
+                        <tr><td>Date</td><td>${cert.issueDate}</td></tr>
+                        <tr><td>ID</td><td>${cert.credentialId}</td></tr>
+                        <tr><td>Verification Link</td><td><a href="${cert.credentialUrl}" target="_blank">Verify</a></td></tr>
+                    </tbody>
+                `;
+                certificatesContainer.appendChild(certTable);
+            });
+            // Add event listeners for collapsible tables
+            document.querySelectorAll('.collapse-header').forEach(header => {
+                header.addEventListener('click', () => {
+                    const targetClass = header.getAttribute('data-target');
+                    const content = document.querySelector(`.collapse-content.${targetClass}`);
+                    content.classList.toggle('visible');
+                });
+            });
         })
-        .catch(error => console.error('Error loading experience data:', error));
+        .catch(error => console.error('Error loading data:', error));
 });
+
