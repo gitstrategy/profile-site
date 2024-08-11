@@ -178,3 +178,12 @@ h1, h2, h3 {
 .collapse-content.visible {
     display: table-row-group;
 }
+#maskedphone {
+    cursor: pointer;
+    color: rgb(10, 10, 44);
+    text-decoration: underline;
+}
+
+#maskedphone:hover {
+    color: rgb(15, 15, 188);
+}

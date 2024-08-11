@@ -1,9 +1,9 @@
 profile.name=Q.Giang Nguyen
-profile.position=Senior Full Stack Developer | Technical Solution Lead
+profile.position=Senior Full Stack Engineer | Technical Solution Lead
 profile.contact=giangnq.it@gmail.com
-profile.phone=(+1)470 360-5505
+profile.phone=(+1)(470) 360-5505
 profile.location=Atlanta, Georgia, United State
-linkedin:https://linkedin.com/in/giangcoi198x
-github:https://github.com/gitstrategy
+profile.linkedin=https://linkedin.com/in/giangcoi198x
+profile.github=https://github.com/gitstrategy
 profile.summary=Seasoned and results-oriented Solution Technical Lead with an impressive track record spanning over 10 years, demonstrating expertise in the meticulous design and implementation of sophisticated technical solutions. Proven commitment to achieving customer satisfaction by delivering innovative and high-quality solutions. Proficient in steering projects from conception to completion, employing a comprehensive skill set in Full Stack Development and Solution Architecture. Adept at leveraging extensive knowledge in AWS and cloud technologies to optimize infrastructure and enhance system performance. Strong leadership skills, complemented by excellent communication and project management abilities. Recognized for a keen focus on technical excellence, innovative solutions, and collaborative approaches to designing cutting-edge solutions. Demonstrated proficiency in steering projects through meticulous technical design, solution architecture, and efficient implementation, ensuring seamless integration, with a flair for solving intricate challenges.
 profile.year=2024
