@@ -4,5 +4,6 @@
     <h3>{{profile.position}}</h3>
     <p>Em@il: {{profile.contact}}</p>
     <p>Location: {{profile.location}}</p>
-   <!-- <p>Phone: profile.phone</p>-->
+    <p>Connect me on <a href={{profile.linkedin}}>Linkedin</a> OR <a href="{{profile.github}}">Github</a> </p>
+    <p>Phone: <span id="maskedphone">(XX)(XXX) XXX-XXXX</span><span id="fullphone" style="display: none;">{{profile.phone}}</span></p>
 </header>

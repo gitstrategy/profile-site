@@ -23,21 +23,111 @@
             "school": "Maharishi International University",
             "year": "10/2022 - 07/2024",
             "degree": "Master Computer Sicence",
-            "grade":"Excellence"
+            "grade":"Good"
         },{
             "school": "FPT University",
             "year": "09/2018 - 05/2012",
             "degree": "Bachelor Software Engineering",
-            "grade":"Excellence"
+            "grade":"Good"
         }
     ],
     "certificates": [
         {
-            "name": "Certified Kubernetes Administrator",
-            "issueOrganization": "Cloud Native Computing Foundation",
-            "issueDate": "06/2022",
-            "credentialId": "CKA-123456",
-            "credentialUrl": "https://www.cncf.io/certification/cka/"
+            "name": "How To Become An Outstanding Solution Architect",
+            "issueOrganization": "Udemy",
+            "issueDate": "03/2024",
+            "credentialId": "UC-6fd3f7f0-8a65-4c23-b724-d4727f33a7cc",
+            "credentialUrl": "https://www.udemy.com/certificate/UC-6fd3f7f0-8a65-4c23-b724-d4727f33a7cc/"
+        },{
+            "name": "Better Business Writing Skills",
+            "issueOrganization": "Udemy",
+            "issueDate": "12/2023",
+            "credentialId": "UC-2335081a-5c3e-44cb-844d-427c19284aad",
+            "credentialUrl": "https://www.udemy.com/certificate/UC-2335081a-5c3e-44cb-84d4-427c19284aad/"
+        },{
+            "name": "Easy English for Meetings",
+            "issueOrganization": "Udemy",
+            "issueDate": "12/2023",
+            "credentialId": "UC-7369b015-6a17-46a1-bf7f-c1f19df340F7",
+            "credentialUrl": "https://www.udemy.com/certificate/UC-7369b015-6a17-46a1-bf7f-c1f19df340F7/"
+        },{
+            "name": "How to Prepare For PMI-ACP Certification",
+            "issueOrganization": "Udemy",
+            "issueDate": "12/2023",
+            "credentialId": "UC-be554c32-2736-4729-a409-4feefce997f4",
+            "credentialUrl": "https://www.udemy.com/certificate/UC-be554c32-2736-4729-a409-4feefce997f4/"
+        },{
+            "name": "Master English",
+            "issueOrganization": "Udemy",
+            "issueDate": "12/2023",
+            "credentialId": "UC-7720b8a3-006c-44f5-9ccc-5aed617a7be3",
+            "credentialUrl": "https://www.udemy.com/certificate/UC-7720b8a3-006c-44f5-9ccc-5aed617a7be3/"
+        },{
+            "name": "Ultimate AWS Certified Developer Associate 2023 NEW DVA-C02",
+            "issueOrganization": "Udemy",
+            "issueDate": "12/2023",
+            "credentialId": "UC-1b38f3ae-59e8-4a2b-af04-21ea9710f0c7",
+            "credentialUrl": "https://www.udemy.com/certificate/UC-1b38f3ae-59e8-4a2b-af04-21ea9710f0c7/"
+        },{
+            "name": "Ultimate AWS Certified Solutions Architect Associate SAA-C03",
+            "issueOrganization": "Udemy",
+            "issueDate": "12/2023",
+            "credentialId": "UC-93bf0ab1-f8b7-40ba-a4d5-82eef2607c9b",
+            "credentialUrl": "https://www.udemy.com/certificate/UC-93bf0ab1-f8b7-40ba-a4d5-82eef2607c9b/"
+        },{
+            "name": "Ultimate AWS Certified Cloud Practitioner CLF-C02",
+            "issueOrganization": "Udemy",
+            "issueDate": "12/2023",
+            "credentialId": "UC-ad06bda2-58c5-4e76-8a59-38499c4fb411",
+            "credentialUrl": "https://www.udemy.com/certificate/UC-ad06bda2-58c5-4e76-8a59-38499c4fb411/"
+        },{
+            "name": "Generative AI for Leaders And Business Professionals",
+            "issueOrganization": "Udemy",
+            "issueDate": "11/2023",
+            "credentialId": "UC-3a1dbaf2-1253-4a2c-bb74-560644f5c321",
+            "credentialUrl": "https://www.udemy.com/certificate/UC-3a1dbaf2-1253-4a2c-bb74-560644f5c321/"
+        },{
+            "name": "Enterprise OAuth 2 and OpenID Connect",
+            "issueOrganization": "Udemy",
+            "issueDate": "06/2023",
+            "credentialId": "UC-68e45a03-99dd-4468-ad56-fe9b3ae1d606",
+            "credentialUrl": " https://www.udemy.com/certificate/UC-68e45a03-99dd-4468-ad56-fe9b3ae1d606/"
+        },{
+            "name": "Building Your English Brain",
+            "issueOrganization": "Udemy",
+            "issueDate": "11/2021",
+            "credentialId": "UC-81406431-8b90-4289-beac-8bc5fd132363",
+            "credentialUrl": "https://www.udemy.com/certificate/UC-81406431-8b90-4289-beac-8bc5fd132363/"
+        },{
+            "name": "English Vocabulary in Speaking",
+            "issueOrganization": "Udemy",
+            "issueDate": "11/2021",
+            "credentialId": "UC-ca0463a2-dc2c-4b64-976d-7dce47071a5c",
+            "credentialUrl": "https://www.udemy.com/certificate/UC-ca0463a2-dc2c-4b64-976d-7dce47071a5c/"
+        },{
+            "name": "Write Better Emails",
+            "issueOrganization": "Udemy",
+            "issueDate": "11/2021",
+            "credentialId": "UC-ab15e83b-c0cf-4263-a6e0-a7a32a39eb96",
+            "credentialUrl": "https://www.udemy.com/certificate/UC-ab15e83b-c0cf-4263-a6e0-a7a32a39eb96/"
+        },{
+            "name": "CONFIDENCE and SELF ESTEEM",
+            "issueOrganization": "Udemy",
+            "issueDate": "08/2021",
+            "credentialId": "UC-3d14119b-dc21-416e-9ed9-960fb10d4b3c",
+            "credentialUrl": "https://www.udemy.com/certificate/UC-3d14119b-dc21-416e-9ed9-960fb10d4b3c/"
+        },{
+            "name": "Interview in English",
+            "issueOrganization": "Udemy",
+            "issueDate": "08/2021",
+            "credentialId": "UC-d5028fd3-f0d0-47f5-87a7-2bb94b5813cc",
+            "credentialUrl": "https://www.udemy.com/certificate/UC-d5028fd3-f0d0-47f5-87a7-2bb94b5813cc/"
+        },{
+            "name": "Professional Scrum Master I - PSM I",
+            "issueOrganization": "Scrum.org",
+            "issueDate": "03/2020",
+            "credentialId": "518212 (email to verify: giangnq2@fsoft.com.vn) ",
+            "credentialUrl": "https://www.scrum.org/certificates/518212"
         }
     ],"experience": [
         {
