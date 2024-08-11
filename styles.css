@@ -15,6 +15,20 @@ body {
     object-fit: cover; /* Ensures the image covers the specified dimensions */
     margin-bottom: 10px; /* Space below the image */
 }
+/*Uncomment to pin the header when scrolling down page*/
+/*background-color: Light background for readability */
+/*position: Safari*/
+/*z-index: Ensure it's on top of other content */
+/* #header {
+    background-color: rgba(127, 212, 144, 0.8);
+    padding: 15px;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+} */
+
 .content {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.9); /* Slightly more opaque for readability */
@@ -24,11 +38,7 @@ body {
     padding: 20px;
     text-align: center;
 }
-.header {
-    background-color: rgba(255, 255, 255, 0.8); /* Light background for readability */
-    padding: 20px;
-    text-align: center;
-}
+
 #header, #content, #footer {
     max-width: 800px;
     margin: 20px auto;
@@ -67,8 +77,6 @@ h1, h2, h3 {
     }
 }
 
-/* styles.css */
-
 .experience {
     padding: 20px;
 }
@@ -93,7 +101,6 @@ h1, h2, h3 {
     list-style-type: disc;
     margin: 10px 0 0 20px;
 }
-/* styles.css */
 
 .skills {
     padding: 20px;
@@ -123,7 +130,6 @@ h1, h2, h3 {
     background-color: #f1f1f1;
 }
 
-
 .education, .certificates {
     padding: 20px;
 }
@@ -139,8 +145,6 @@ h1, h2, h3 {
 .education-entry h3, .certificate-entry h3 {
     margin-top: 0;
 }
-
-/* Style for collapse row in certificate section*/
 
 /* Collapsible Table Styles */
 .collapse-table {
@@ -174,4 +178,3 @@ h1, h2, h3 {
 .collapse-content.visible {
     display: table-row-group;
 }
-

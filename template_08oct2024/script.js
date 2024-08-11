@@ -28,6 +28,8 @@ function loadProfileData(url) {
                 '{{profile.name}}': properties['profile.name'] || '',
                 '{{profile.position}}': properties['profile.position'] || '',
                 '{{profile.contact}}': properties['profile.contact'] || '',
+                '{{profile.location}}': properties['profile.location'] || '',
+                '{{profile.phone}}': properties['profile.phone'] || '',
                 '{{profile.summary}}': properties['profile.summary'] || '',
                 '{{profile.year}}': properties['profile.year'] || '',
                 '{{experience.list}}': properties['experience.list'] || ''
@@ -70,9 +72,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 const expDiv = document.createElement('div');
                 expDiv.classList.add('experience-entry');
                 expDiv.innerHTML = `
-                    <h3>${exp.title}</h3>
-                    <p>${exp.company} - ${exp.location}</p>
-                    <p>${exp.date}</p>
+                    <h4>${exp.title}</h4>
+                    <h4>${exp.company} - ${exp.location}</h4>
+                    <p><i>${exp.date}</i></p>
                     <ul>${exp.description.map(desc => `<li>${desc}</li>`).join('')}</ul>
                 `;
                 experienceContainer.appendChild(expDiv);
@@ -93,8 +95,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 const edDiv = document.createElement('div');
                 edDiv.classList.add('education-entry');
                 edDiv.innerHTML = `
-                    <h3>${ed.school}</h3>
-                    <p>${ed.degree} - ${ed.year}</p>
+                    <h4>${ed.school}</h4>
+                    <p>${ed.degree} &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp ${ed.year}</p>
                     <p>${ed.grade}</p>
                 `;
                 educationContainer.appendChild(edDiv);

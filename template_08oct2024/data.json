@@ -1,30 +1,6 @@
 {
     
-    "experience": [
-        {
-            "title": "Senior Full Stack Developer",
-            "company": "FPT USA Corporation",
-            "location": "Atlanta, Georgia, USA",
-            "date": "11/2021 - Present",
-            "description": [
-                "Conduct comprehensive analysis and assessment for multiple projects in Automotive domain.",
-                "Lead several projects, ensuring on-time and within-budget delivery while maintaining high levels of quality and customer satisfaction.",
-                "Manage and optimize AWS resources, including EC2 instances, S3 storage, RDS databases, and Lambda functions.",
-                "Collaborate with cross-functional teams to design and deploy tailored AWS solutions using services like AWS CloudFormation and AWS Elastic Beanstalk."
-            ]
-        },{
-            "title": "Sr. Full Stack Developer",
-            "company": "FPT Software",
-            "location": "Hanoi, Vietnam",
-            "date": "07/2019 – 10/2021",
-            "description": [
-                "Lead analysis, estimation, programming, and unit testing for multiple projects within the Healthcare domain.",
-                "Implement GDPR standards across various projects, ensuring compliance with data protection regulations.",
-                "Utilize Google Cloud Platform for executing Circle-CI, logging, and deployment processes.",
-                "Drive the enhancement of system features, optimizing performance and elevating user experience."
-            ]
-        }
-    ],
+    
    "skills": {
         "Programming Languages": ["Java", "JavaScript", "Node.js", "ReactJS"],
         "Frontend Technologies": ["ReactJS", "HTML", "CSS", "Angular"],
@@ -44,8 +20,13 @@
     },
     "education": [
         {
+            "school": "Maharishi International University",
+            "year": "10/2022 - 07/2024",
+            "degree": "Master Computer Sicence",
+            "grade":"Excellence"
+        },{
             "school": "FPT University",
-            "year": "04/2014",
+            "year": "09/2018 - 05/2012",
             "degree": "Bachelor Software Engineering",
             "grade":"Excellence"
         }
@@ -57,6 +38,109 @@
             "issueDate": "06/2022",
             "credentialId": "CKA-123456",
             "credentialUrl": "https://www.cncf.io/certification/cka/"
+        }
+    ],"experience": [
+        {
+            "title": "Sr. Full Stack Engineer / Technical Solution Lead",
+            "company": "FPT USA Corporation",
+            "location": "Atlanta, Georgia, USA",
+            "date": "11/2021 - Present",
+            "description": [
+                "Conduct comprehensive analysis and assessment for multiple projects in Automotive domain.",
+                "Lead several projects, ensuring on-time and within-budget delivery while maintaining high levels of quality and customer satisfaction.",
+                "Manage and optimize AWS resources, including EC2 instances, S3 storage, RDS databases, and Lambda functions.",
+                "Collaborate with cross-functional teams to design and deploy tailored AWS solutions using services like AWS CloudFormation and AWS Elastic Beanstalk.",
+                "Played a pivotal role in the design and implementation of key features within a production tool suite, contributing to the overall robustness and functionality of the suite.",
+                "Collaborated closely with UI/UX designers to create intuitively designed and user-friendly interfaces, enhancing the overall user experience and satisfaction.",
+                "Conducted thorough code reviews and actively mentored junior developers, fostering a culture of best practices and maintaining high code quality standards within the development team.",
+                "Spearheaded the full-stack development of critical modules for a production platform, ensuring seamless integration and alignment with production and post-production workflows.",
+                "Collaborated effectively with cross-functional teams to gather requirements and design solutions, ensuring a holistic and effective approach to addressing the unique challenges of production and post-production workflows.",
+                "Utilized advanced Java expertise to architect and implement scalable backend systems, setting and maintaining high-performance standards for the developed solutions."
+            ]
+        },{
+            "title": "Sr. Full Stack Engineer | Technical Lead",
+            "company": "FPT Software",
+            "location": "Hanoi, Vietnam",
+            "date": "07/2019 – 10/2021",
+            "description": [
+                "Lead analysis, estimation, programming, and unit testing for multiple projects within the Healthcare domain.",
+                "Implement GDPR standards across various projects, ensuring compliance with data protection regulations.",
+                "Utilize Google Cloud Platform for executing Circle-CI, logging, and deployment processes.",
+                "Drive the enhancement of system features, optimizing performance and elevating user experience.",
+                "Utilize the latest Java technologies, including Java 11 and Spring Boot, for robust and scalable backend development.",
+                "Implemented full-stack solution based on NodeJS and Java technologies.",
+                "Estimate, provide solutions and implemented tasks for creating new features."
+            ]
+        },{
+            "title": "Sr. Full Stack Engineer | Technical Lead",
+            "company": "FPT Software Malaysia",
+            "location": "Kuala Lumpur, Malaysia",
+            "date": "04/2018 – 06/2019",
+            "description": [
+                "Applied Microservice patterns and concepts to craft high-performing software solutions, enhancing the efficiency and scalability of the developed systems.",
+                "Innovated a healthcare systems by integrating cutting-edge technologies, contributing to the advancement and modernization of health management practices.",
+                "Implemented Agile processes, meticulously estimating tasks for each sprint, and provided valuable support to the Singapore Operation Department, ensuring streamlined project execution.",
+                "Spearheaded the development of both back-end and front-end features, ensuring a cohesive, comprehensive, and user-friendly system interface that optimizes user experiences.",
+                "Provided dedicated support for User Acceptance Testing (UAT) and Production (PROD), actively contributing to the ongoing development of enhancement features, enhancing the overall functionality of the systems.",
+                "Leveraged Java 11 and the Spring Framework for backend development, ensuring the implementation of contemporary and efficient solutions aligned with industry best practices."
+            ]
+        },{
+            "title": "Sr. Full Stack Engineer | Technical Lead",
+            "company": "Five 9 Vietnam Corporation",
+            "location": "Hanoi, Vietnam",
+            "date": "04/2017 – 03/2018",
+            "description": [
+                "Played an active role in all stages of application development: requirements gathering, analysis and design, development, testing, and debugging.",
+                "Lead project planning, team management, and sprint planning, ensuring effective project execution.",
+                "Provide customer support in deploying systems on servers and creating user guides for seamless adoption.",
+                "Conduct software requirement analysis, code, and collaborate with the team for quality assurance.",
+                "Support System Integration Testing (SIT) & User Acceptance Testing (UAT).",
+                "Utilize Java 8 features and frameworks like Spring for developing scalable and maintainable applications."
+            ]
+        },{
+            "title": "Sr. Software Engineer / Technical Lead ",
+            "company": "FPT Asia Pacific",
+            "location": "Singapore, Singapore",
+            "date": "06/2016 – 03/2017",
+            "description": [
+                "Executed on-site knowledge gathering, leading the redesign process while effectively managing offshore teams for optimal productivity.",
+                "Collaborated seamlessly with customers to conduct thorough requirements analysis, resolve technical issues, and implement enhancements to the system.",
+                "Played a pivotal role in providing production support, swiftly addressing hot fixes, and ensuring timely resolution of production issues to maintain system stability.",
+                "Took charge of leading offshore team training initiatives, contributing significantly to System Integration Testing (SIT) and User Acceptance Testing (UAT) onsite support for a comprehensive understanding of system functionality.",
+                "Leveraged Java 8 features and Spring Boot to drive efficient backend development and implement a robust microservices architecture, ensuring the system's scalability and modernized functionality."
+            ]
+        },{
+            "title": "Sr. Software Engineer  ",
+            "company": "Nash Tech Vietnam",
+            "location": "Hanoi, Vietnam",
+            "date": "01/2015 – 05/2016",
+            "description": [
+                "Conducted in-depth investigations to comprehend business and project architecture, laying the foundation for informed decision-making and strategic planning.",
+                "Spearheaded the development of new functions, assuming responsibility for system maintenance, and consistently conducted rigorous bug fixing to ensure the integrity and optimal performance of the system.",
+                "Configured the CX Right Now system, implementing Agile processes for efficient project management, resulting in streamlined workflows and improved project outcomes.",
+                "Led the requirement analysis process, refining tickets on JIRA to enhance project clarity, and produced comprehensive project documentation to facilitate effective communication and collaboration.",
+                "Demonstrated proficiency in utilizing Java technologies, specifically Java EE, to engineer robust and scalable enterprise applications, contributing to the development of cutting-edge solutions aligned with industry best practices."
+            ]
+        },{
+            "title": "Sr. Software Engineer  ",
+            "company": "Vietnam Smart IT & BPO",
+            "location": "Hanoi, Vietnam",
+            "date": "05/2012 – 12/2014",
+            "description": [
+                "Applied the Spring framework and MyBatis to enhance the functionality and performance of an eCommerce project, contributing significantly to its robust architecture.",
+                "Implemented Maven and Git for the project, actively participating in coding, conducting thorough unit testing, and addressing bug fixes, ensuring the project's integrity and code quality.",
+                "Led the requirement analysis process, creating detailed sequence diagrams and UML models to provide project clarity and serve as essential documentation for effective communication.",
+                "Leveraged advanced Java technologies, particularly Java EE, to develop and deploy enterprise-grade applications, showcasing a commitment to building scalable and high-performance solutions."
+            ]
+        },{
+            "title": "Software Engineer  ",
+            "company": "FPT Software",
+            "location": "Hanoi, Vietnam",
+            "date": "05/2011 – 11/2011",
+            "description": [
+                "Acquired valuable Java development experience through an internship, where I actively collaborated with the development team on diverse projects.",
+                "Played a key role in the coding process, conducted thorough unit testing, and contributed to bug fixing under the mentorship of experienced professionals."
+            ]
         }
     ]
 }
